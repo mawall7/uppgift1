@@ -13,7 +13,7 @@ namespace uppgift1
             {
                 int inp = 0 ;
                 var s = 0;
-                while (inp != 1 && inp != 2) { 
+                while (inp != 1 && inp != 2 && inp != 3) { 
                 Console.WriteLine("1 = Add an employee   2 = List Employees 3 = quit");
                 inp = int.Parse(Console.ReadLine()); }
 
